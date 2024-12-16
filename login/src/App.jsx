@@ -20,9 +20,12 @@ function App() {
       setUsuario(null)
     }
   })
+
+
+  
   return (
     <>
-      {usuario ? <Home correoUsuario={usuario.emal} /> : <Login />}
+      {usuario ? <Home correoUsuario={usuario.email} /> : <Login />}
     </>
   )
 }
